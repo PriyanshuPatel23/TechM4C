@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    #phone {
+      font-size: 2rem;
+      margin-top: 12px;
+      margin-right: 20px;
+    }
+
+    .menutop {
+      border-bottom: 1px solid #e0e0e0;
+      background: #f2f6ff;
+    }
+
+    .test {
+      background: #f2f6ff;
+    }
+    .test1{
+      background-image:url(background10.jpg) ;
+      background-size: cover;
+      padding: 150px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <section class="menutop">
+      <div class="container-fluid">
+        <div class="row p-5">
+          <div class=" col-lg-3 col-md-12  display-6 text-primary" style="font-size: 2.5rem;">
+            TechM4
+          </div>
+          <div class="col-lg-3 col-md-12 d-flex border-end">
+            <div>
+              <i id="phone" class="fa-solid fa-phone"></i>
+            </div>
+            <div>
+              <h4 style="font-size: 1rem;">+(123)1800-567-8990</h4>
+              <h4 class="fw-lighter" style="font-size: 1.2rem;">+(123)1800-567-8990</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12 d-flex border-end">
+            <div>
+              <i id="phone" class="fa-solid fa-clock"></i>
+            </div>
+            <div>
+              <h4 style="font-size: 1rem;">Mon - fri 9:00 to 5:00</h4>
+              <h4 class="fw-lighter" style="font-size: 1.2rem;">sat and sun: closed</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-3 d-flex">
+            <div>
+              <i id="phone" class="fa-solid fa-envelope"></i> </i>
+            </div>
+            <div>
+              <h4 style="font-size: 1rem;">office@example.com</h4>
+              <h4 class="fw-lighter" style="font-size: 1.2rem;">medical@example.com</h4>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-light test ">
+        <div class="container p-5">
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <!-- <div class="btn"></div> -->
+          <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation " >
+            <span class="navbar-toggler-icon" id="btn1"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+              <li class="nav-item ms-5" style="font-size: 1rem;">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item ms-5" style="font-size: 1rem;">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item ms-5" style="font-size: 1rem;">
+                <a class="nav-link" href="#">Contacts</a>
+              </li>
+              <li class="nav-item dropdown ms-5" style="font-size: 1rem;">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Demo
+                </a>
+                <ul class="dropdown-menu ms-5" style="font-size: 1rem;" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item ms-5 border rounded-pill bg-primary">
+                <a class="nav-link disabled ps-5 pe-5 text-white" href="#" tabindex="-1" aria-disabled="true"
+                  style="font-size: 1rem;">
+                  <i class="fa-solid fa-envelope"></i>
+                  Contacts
+                </a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form> -->
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section>
+      <div class="container-fluid align-center test1">
+        <div class="row">
+          <div class="col-lg-7 col-lg-12" style="padding: 0px 150px;">
+            <h1 class="text-center text-white" style="font-size: 3rem;">Tech Company</h1>
+            <h2 class="text-center text-white" style="font-size: 1rem;">Web Page Design Template</h2>
+            <p class="text-center text-white" style="font-size: 1rem;">We are a team of cutting-edge specialists providing high - high quality, prompt, value-added solutions to
+              our customers. Our success is attained through sincerity in thought, word and activity towards our
+              customers, fellow workers, neighborhoods and suppliers. Whould you like to try web Page Design Template?
+            </p>
+            <div class="text-center">
+              <button type="button" class="btn btn-danger  rounded-pill mt-2" style="padding: 20px 45px 20px 45px;">Contact Us</button>
+              <button type="button" class="btn ms-3 btn-primary rounded-pill mt-2" style="padding: 20px 45px 20px 45px;">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+</body>
+
+</html>
